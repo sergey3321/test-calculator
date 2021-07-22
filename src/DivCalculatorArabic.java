@@ -1,4 +1,4 @@
-public class DivCalculator {
+public class DivCalculatorArabic {
 
     static void calcDivision(String str1) {
 

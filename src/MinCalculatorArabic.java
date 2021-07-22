@@ -1,13 +1,14 @@
-public class MultCalculator extends MinCalculator {
-    static void calcMultiply(String str1) {
+public class MinCalculatorArabic {
+
+    static void calcMin(String str1) {
         char a = str1.charAt(0);
         char b = str1.charAt(2);
         int e = Integer.parseInt(String.valueOf(a));
         int f = Integer.parseInt(String.valueOf(b));
 
-        if (str1.contains("*") && f >= 1 && f <= 10 && e >= 0 && e <= 10) {
+        if (str1.contains("-") && f >= 1 && f <= 10 && e >= 0 && e <= 10) {
             System.out.println("output");
-            System.out.println(e * f);
+            System.out.println(e - f);
         }
         else {
             System.out.println("Вычтите из двух чисел (числа должны быть не более 10)");
